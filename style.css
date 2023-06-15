@@ -9,8 +9,8 @@ body {
     height: 100vh;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    background: white;
+    color:white;
+    /* background: white; */
     display: flex;
     flex-direction: column;
 }
@@ -36,6 +36,10 @@ body > *, .main-container > * {
     --padding : 1rem;
 }
 
+.main-content-container{
+    width: 100%;
+    padding: 1rem;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -44,12 +48,20 @@ body > *, .main-container > * {
 .col{
     flex-grow: 1;
     flex-basis: 0;
-    gap: 2rem;
+    /* gap: 2rem; */
 }
 .col-1-6{
-    flex-basis: calc(100% / 6) - 2rem;
+    flex-basis: calc(100% / 6) - var(--gap);
     border: 1px solid red;
-    gap: 2rem;
+    /* gap: 2rem; */
+}
+.img{
+    width: 100%;
+}
+
+h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -111,6 +123,7 @@ body > *, .main-container > * {
     gap: var(--gap);
     font-size: 11px ;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     color: var(--color-font-secondary);
 }
 
@@ -123,9 +136,33 @@ li{
     justify-content: center;
 }
 /*-----------------section 1 Recently played-------------------*/
+.col-img{
+    flex-basis: calc(100% / 6) - var(--gap);
+}
 
+/* perche ho soltanto 4 img?
+perche il gap con il col nn funziona ma invece con l'img si? */
+
+.small-font-size{
+    font-size: 12px;
+}
+
+
+/* .col-1-6 .text{
+    text-align: center;
+} */
 
 /*---------------section 2 Create per John Dee-----------------*/
+.John-Dee .title h2{
+    margin-bottom: -0.4rem; 
+}
+
+.John-Dee small{
+    margin-bottom: 2rem;
+}
+
+
+
 
 
 /*--------------- Barra in basso per pulsanti pla----------------y */
