@@ -17,9 +17,9 @@ body {
 
 
 /* da cancellare dopo  */
-body > *{
-
+body > *, .main-container > * {
     min-height: 100px;
+    min-width: 100px;
     border: 1px solid red;
 }
 
@@ -68,6 +68,18 @@ body > *{
 /* ---------------- horizontal menu bar ---------------- */
 .main-container{
     flex-grow: 1;
+    overflow: auto;
+    display: flex;
+}
+
+.main-content-container{
+    flex-grow: 1;
+    overflow: auto;
+}
+.nav-bar{
+    overflow: auto;
+    width: 250px;
+    flex-shrink: 0;
 }
 
 
