@@ -18,8 +18,8 @@ body {
 
 /* da cancellare dopo  */
 body > *, .main-container > * {
-    min-height: 100px;
-    min-width: 100px;
+    min-height: 80px;
+    min-width: 80px;
     border: 1px solid red;
 }
 
@@ -37,14 +37,6 @@ body > *, .main-container > * {
 }
 
 
-.button{
-    border: none;
-    border: 1px solid white;
-    padding: 1rem 2rem ;
-    color: var(--color-font-primary);
-    border-radius: 50%;
-}
-
 
 /*------------------------- text --------------------- */
 
@@ -53,14 +45,29 @@ body > *, .main-container > * {
 
 /*------------------------- Header --------------------- */
 /* effetua l'upgrade + logo spotify  */
+.bg-color{
+    background-color: var(--bg-color-header-aside);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    border: 1px solid;
+    background-color: var(--bg-color-header-aside);
+    padding: 0.5rem 2rem ;
+    color: var(--color-font-primary);
+    border-radius: 50px ;
+    margin-right: 1rem;
+    font-size: 10px;
+}
+
+.logo{
+    width: 10%;
+    padding-left: 1rem;
+}
 
 
-
-
-
-
-/*-----------------------   aside ---------------------- */
-/* menu laterale  */
 
 
 
