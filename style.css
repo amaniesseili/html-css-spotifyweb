@@ -1,13 +1,49 @@
 /*------------------- General Styles------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: black;
+}
 
-
+img {
+    max-width: 100%;
+}
 
 /* --------------------  Utilities -------------------*/
 /* ----------------------- Layout -------------------- */
+:root{
+    --bg-color-header-aside : #080B12 ;
+    --main-color:#141922 ;
+    --footer-color :#282828 ;
+    --color-font-secondary :#797C80;
+    --color-font-primary : white; 
+    --gap : 1rem;
+    --padding : 1rem; 
+}
+
+.container-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
 
 
-
+.button{
+    border: none;
+    border: 1px solid;
+    padding: 1rem 2rem ;
+    color: var(--color-font-primary);
+    border-radius: 50%;
+}
 
 
 /*------------------------- text --------------------- */
