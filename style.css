@@ -42,6 +42,8 @@ body > *, .main-container > * {
     padding-right: 1rem; */
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
 }
 .section-content{
     flex-grow: 1;
@@ -78,6 +80,11 @@ h5{
     margin-bottom: 0.5rem;
     text-align: center;
 }
+h3{
+    padding: 0.5rem;
+    padding: 0.5rem;
+
+}
 
 .small-font-size{
     font-size: 12px;
@@ -87,7 +94,57 @@ h5{
 
 
 
-/*------------------------- text --------------------- */
+/* --------------------la barra laterale----------------- */
+.nav-bar{
+    background-color: var(--bg-color-header-aside);
+    display: flex;
+    flex-direction: column; 
+    padding: 1rem ;
+    color: grey;
+}
+
+
+.logo{
+    width: 10%;
+    padding-left: 1rem;
+    min-width: 120px;
+    margin-bottom: 1rem;
+}
+.home{
+    padding: 0.5rem;
+    padding: 0.5rem;
+}
+.search{
+    padding: 0.5rem;
+    padding: 0.5rem;
+}
+.library{
+    padding: 0.5rem;
+    padding: 0.5rem;
+}
+.Create-playlist{
+    padding: 0.5rem;
+    padding: 0.5rem;
+}
+.install-app{
+    padding: 0.5rem;
+    padding: 0.5rem;
+}
+.artist-name{
+    padding: 0.5rem;
+    padding: 0.5rem;
+}
+.playlist-container{
+    display: flex;
+    flex-direction: column;
+}
+.playlist{
+    flex-grow: 1;
+    overflow: auto;
+}
+
+
+
 
 
 
@@ -97,7 +154,7 @@ h5{
 .bg-color{
     background-color: var(--bg-color-header-aside);
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
 }
 
@@ -111,18 +168,14 @@ h5{
     font-size: 10px;
 }
 
-.logo{
-    width: 10%;
-    padding-left: 1rem;
-    min-width: 120px;
-}
+
 header{
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
-    
+
 
 }
 
@@ -136,14 +189,11 @@ header{
     flex-grow: 1;
     overflow: auto;
     display: flex;
+    width: 100%;
+    
 }
 
-.main-content-container{
-    flex-grow: 1;
-    overflow: auto;
-}
 .nav-bar{
-    overflow: auto;
     width: 250px;
     flex-shrink: 0;
 }
@@ -208,9 +258,6 @@ li{
     object-fit: cover;
     width: 90%;
 }
-
-
-
 
 
 
