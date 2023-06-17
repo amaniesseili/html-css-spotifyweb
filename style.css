@@ -22,6 +22,44 @@ body > *, .main-container > * {
     min-width: 80px;
     /* border: 1px solid red; */
 }
+/* --------------------  Hover -------------------*/
+.home:hover .div-hover {
+    color: white;
+    
+}
+.home:hover .fa-house {
+    border-left: 2px solid greenyellow;
+    padding-left: 1rem;
+}
+
+.search:hover .div-hover {
+    color: white;
+    
+}
+.search:hover .fa-magnifying-glass{
+    border-left: 2px solid greenyellow;
+    padding-left: 1rem;
+}
+.library:hover .div-hover {
+    color: white;
+    
+}
+.library:hover .fa-magnifying-glass{
+    border-left: 2px solid greenyellow;
+    padding-left: 1rem;
+}
+
+li:hover{
+    color: white;
+}
+.install-app:hover .div-hover{
+    color: white;
+}
+.artist-name:hover .div-hover{
+    color: white;
+}
+
+
 
 
 /* --------------------  Utilities -------------------*/
@@ -83,6 +121,7 @@ h5{
 h3{
     padding: 0.5rem;
     padding: 0.5rem;
+    color: white;
 
 }
 
@@ -151,7 +190,6 @@ h3{
 
 .fa-square-plus{
     font-size: 30px;
-    color: white;
     padding-bottom: 0.5rem;
 }
 
