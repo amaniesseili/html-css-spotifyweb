@@ -129,6 +129,7 @@ h3{
 .install-app{
     padding: 0.5rem;
     padding: 0.5rem;
+    border-bottom: 1px solid grey;
 }
 .artist-name{
     padding: 0.5rem;
@@ -148,10 +149,11 @@ h3{
     margin-left: 0.5rem;
 }
 
-
-
-
-
+.fa-square-plus{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 0.5rem;
+}
 /*------------------------- Header --------------------- */
 /* effetua l'upgrade + logo spotify  */
 .bg-color{
