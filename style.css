@@ -23,6 +23,8 @@ body > *, .main-container > * {
     /* border: 1px solid red; */
 }
 /* --------------------  Hover -------------------*/
+/* ---------------- barra laterale  -------------*/
+
 .home:hover .div-hover {
     color: white;
     
@@ -58,7 +60,19 @@ li:hover{
 .artist-name:hover .div-hover{
     color: white;
 }
+/* --------------------  Hover -------------------*/
+/* ----------------horizontal menu bar  -------------*/
+.li-horizontal-menu:hover  {
+    border-bottom: 2px solid greenyellow ;
+/* come faccio la line apiu piccola  */
+}
 
+
+/* --------------------  Hover -------------------*/
+/* ----------------------header ------------------*/
+.btn:hover button{
+    font-size: 13px;
+}
 
 
 
@@ -248,6 +262,9 @@ header{
     flex-shrink: 0;
 }
 
+.horizontal-menu-bar li{
+    padding-bottom: 0.5rem;
+}
 
 /* -------------------horizontal menu bar ------------------- */
 .horizontal-menu-bar ul{
