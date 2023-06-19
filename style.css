@@ -67,6 +67,18 @@ li:hover{
 /* come faccio la line apiu piccola  */
 }
 
+/* --------------------  Hover -------------------*/
+/* ----------------Recently played -------------*/
+
+.col-1-6:hover .fa-circle-play{
+    display: block;
+}
+
+.col-1-6:hover .img{
+    opacity: 40%;
+    transition: transform .3s;
+}
+
 
 /* --------------------  Hover -------------------*/
 /* ----------------------header ------------------*/
@@ -310,12 +322,25 @@ li{
 /*-----------------section 1 Recently played-------------------*/
 .col-img{
     width: 90%;
+    position: relative;
 }
 
 .col-1-6 .text{
     text-align: center;
 }
-
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.col-i{
+    position: absolute;
+}
+.img .fa-circle-play {
+    font-size: 50px;
+    display: none;
+}
 
 /*---------------section 2 Create per John Dee-----------------*/
 
