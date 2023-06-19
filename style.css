@@ -71,7 +71,32 @@ li:hover{
 /* --------------------  Hover -------------------*/
 /* ----------------------header ------------------*/
 .btn:hover button{
-    font-size: 13px;
+    transform: scale(1.1);
+}
+
+/* --------------------  Hover -------------------*/
+/* ----------------------play nav bar ------------------*/
+.brano-nome:hover{
+    text-decoration: underline;
+    color: white;
+}
+.i-hover:hover{
+    color: white;
+}
+.scale-hover:hover{
+    transform: scale(1.3);
+}
+.progress-bar-timing:hover .progress-bar-white{
+    background-color: greenyellow;
+}
+.volume-control-grey:hover .volume-control-white{
+    background-color: greenyellow;
+}
+.volume-control-grey:hover .volume-indicator{
+    display: block;
+}
+.progress-bar-grey:hover .timming-indicator{
+    display: block;
 }
 
 /* --------------------  Utilities -------------------*/
@@ -391,7 +416,21 @@ li{
     height: .2rem;
     max-width: 30%;
     border-radius: .2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
+
+.timming-indicator{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
 
 .progress-bar-timing .small-font-size{
     color: white;
@@ -426,11 +465,23 @@ li{
 .volume-control-white{
     background-color: white;
     height: .2rem;
-    width: 20%;
+    width: 30%;
     border-radius: .2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
 
 }
-
+.volume-indicator{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    display: none;
+    
+}
 
 
 
