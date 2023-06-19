@@ -339,15 +339,28 @@ li{
 }
 /* 1st container albun  */
 .album-container{
-    min-width: 250px;
-    border: 1px solid red;
+    max-width: 250px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.album-container .img{
+    width: 20%;
+    object-fit: cover;
+}
+.album-name{
+    flex-grow: 1;
+}
+.my-favorite{
+    display: flex;
+    gap: 1rem;
+    color: grey;
 }
 
 /*  2nd container -progress bar */
 .progress-bar-container{
     flex-grow: 1; 
     text-align: center;
-    border: 1px solid red;
 }
 
 .icon-play-nav i{
@@ -389,7 +402,6 @@ li{
 /* 3rd container volume */
 .volume-container{
     min-width: 250px;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
