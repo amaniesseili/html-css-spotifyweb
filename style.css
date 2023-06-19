@@ -378,7 +378,6 @@ li{
     height: .2rem;
     max-width: 30%;
     border-radius: .2rem;
-    
 }
 
 .progress-bar-timing .small-font-size{
@@ -391,9 +390,34 @@ li{
 .volume-container{
     min-width: 250px;
     border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 
 }
+.volume-contol{
+    display: flex;
+    width: 90%;
+    gap: 1rem;
+    align-items: center;
+}
+.volume-container .small-font-size{
+    color: white;
+}
+.volume-control-grey{
+    flex-grow: 1;
+    background-color:  grey;
+    height: .2rem;
+    border-radius: .2rem;
+}
+.volume-control-white{
+    background-color: white;
+    height: .2rem;
+    width: 20%;
+    border-radius: .2rem;
 
+}
 
 
 
